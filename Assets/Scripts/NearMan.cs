@@ -18,7 +18,7 @@ public class NearMan : MonoBehaviour
         Vector3 targetPos;
         if (dist < 8)
         {
-            targetPos = new Vector3(transform.position.x, 0, transform.position.z);
+            targetPos = new Vector3(transform.position.x, 1, transform.position.z);
         }
         else
         {
